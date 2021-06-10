@@ -1,0 +1,32 @@
+.box {
+  margin-top: 5px;
+  background-image: linear-gradient(#aa076b, #860384);
+  border-radius: 25px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  height: max-content;
+  max-width: 100%;
+}
+
+.box button {
+  display: flex;
+  float: right;
+  height: 35px;
+  width: 35px;
+  margin-top: 3px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: space-around;
+  color: azure;
+  background-color: transparent;
+  border: none;
+  margin-right: 7px;
+}
+
+.box button:hover {
+  color: rgb(255, 0, 0);
+
+  transition: 0.5ms;
+  transform: scale(1.2);
+}

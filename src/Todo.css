@@ -1,0 +1,110 @@
+body {
+  background-image: linear-gradient(#aa076b, #61045f);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.Center {
+  padding: 20px;
+  min-width: 25vw;
+  width: max-content;
+  height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: #b1babd;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgb(51, 51, 51);
+}
+
+.Header {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #aa076b;
+}
+
+.Adder {
+  padding-top: 10px;
+  width: 100%;
+  height: 15%;
+  min-height: 15%;
+}
+
+.Adder form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.Adder input:focus {
+  outline: none;
+}
+.Adder input {
+  padding: 2px;
+  padding-left: 7px;
+  font-size: 15px;
+  margin-right: 5%;
+  width: 80%;
+  height: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  border-color: #61045f;
+  color: black;
+}
+
+.Adder button {
+  background-image: radial-gradient(#aa076b, #61045f);
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  border: none;
+}
+
+.Adder button:hover {
+  transition: all 0.2s;
+  transform: scale(1.2);
+}
+
+.Adder button:focus {
+  transition: all 0.2s;
+  background-image: radial-gradient(#06be62, #00280d);
+}
+
+.Display {
+  padding: 10px;
+  overflow-y: scroll;
+  max-height: 60%;
+  min-height: 30vh;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #350134;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aa076b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 0, 157);
+}
+
+li {
+  list-style-type: none;
+}
